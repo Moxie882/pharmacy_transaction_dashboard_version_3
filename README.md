@@ -4,7 +4,7 @@
 
 <!-- This project uses a dataset from a Sri Lankan pharmacy chain to create a dashboard and extract as many insights as possible from the data.
  -->
-A dashboard built with Python and Panel that extract insights from 'Pharmacy_OLTP_SLStyle_18Months.csv' dataset.
+A dashboard built with Python and Panel that extracts insights from 'Pharmacy_OLTP_SLStyle_18Months.csv' dataset.
 
 ## 🔗 Live Demo
 **Check out the live dashboard here:** 
@@ -32,21 +32,23 @@ I explored the dataset and built a dashboard used to explore multiple facets of 
 ├── requirements.txt    # Dependencies
 └── README.md
 
-⚙️ How to Run Locally
+## ⚙️ How to Run Locally
 If you want to run the dashboard on your own machine:
 
-Clone this repository:
-Bash →
-git clone https://github.com/Moxie882/pharmacy_transaction_dashboard_version_3.git
-cd pharmacy_transaction_dashboard_version_3
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Moxie882/pharmacy_transaction_dashboard_version_3.git
+   cd pharmacy_transaction_dashboard_version_3
 
-Install the requirements:
-Bash →
-pip install -r requirements.txt
+2. **Install the requirements:**
+   ```bash
+   pip install -r requirements.txt
 
 
-Launch the dashboard:
-Bash →
-panel serve src/dashboard.py --show
+3. **Launch the dashboard:**
+   ```bash
+   panel serve src/dashboard.py --show
 
-<img width="1366" height="592" alt="dashboard_preview" src="https://github.com/user-attachments/assets/caac74d0-e4ff-4c41-ac7d-b28fc301c263" />
+
+## Dashboard Preview
+   <img width="1366" height="592" alt="dashboard_preview" src="https://github.com/user-attachments/assets/caac74d0-e4ff-4c41-ac7d-b28fc301c263" />
