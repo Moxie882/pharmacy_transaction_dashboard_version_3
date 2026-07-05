@@ -31,6 +31,7 @@ I explored the dataset and built a dashboard used to explore multiple facets of 
 ├── notebooks/          # Exploratory analysis (Jupyter Notebooks)
 ├── requirements.txt    # Dependencies
 └── README.md
+```
 
 ## ⚙️ How to Run Locally
 If you want to run the dashboard on your own machine:
