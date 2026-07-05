@@ -44,7 +44,9 @@ Install the requirements:
 Bash →
 pip install -r requirements.txt
 
+
 Launch the dashboard:
 Bash →
 panel serve src/dashboard.py --show
 
+<img width="1366" height="592" alt="dashboard_preview" src="https://github.com/user-attachments/assets/caac74d0-e4ff-4c41-ac7d-b28fc301c263" />
