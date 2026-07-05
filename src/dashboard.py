@@ -51,27 +51,17 @@ def wrangle(filepath):
 # In[78]:
 
 
-from pathlib import Path
 import os
-import sys
 
 relative_path = 'Pharmacy_OLTP_SLStyle_18Months.csv'
-try:
-    base_path = sys._MEIPASS
-except:
-    base_path = os.path.abspath('.')
-final_filename = Path(repr(os.path.join(base_path, relative_path)))
 
+# Get the path to the folder where THIS script is located
+current_dir = os.path.dirname(os.path.abspath(__file__))
 
-try:
-    df = wrangle(final_filename)
-except:
-    try:
-        final_filename = Path(r'C:/Users/Kenneth Owusu Boakye/.cache/kagglehub/datasets/mrnize/pharmacy-transaction/versions/1/Pharmacy_OLTP_SLStyle_18Months.csv')
-        df = wrangle(final_filename)
-    except:
-        final_filename = 'https://raw.githubusercontent.com/Moxie882/data/refs/heads/master/datasets/mrnize/pharmacy-transaction/versions/1/Pharmacy_OLTP_SLStyle_18Months.csv'
-        df = wrangle(final_filename)
+# Point to the data folder (going up one level from 'src' into 'data')
+data_path = os.path.join(current_dir, '..', 'data', relative_path)
+
+df = wrangle(data_path)
 
 
 # In[80]:
