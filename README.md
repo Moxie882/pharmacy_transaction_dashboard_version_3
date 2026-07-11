@@ -18,7 +18,7 @@ I explored the dataset and built a dashboard used to explore multiple facets of 
 - **Visual Analytics:** Best five (5) Performing Drugs in Sales, Worst five (5) Performing Drugs in Sales
 - **Data Driven:** Processed using Pandas to ensure efficient performance and accurate reporting.
 
-## 🛠 Tech Stack
+## 🛠 Tools Used
 - **Dashboarding:** [Panel](https://panel.holoviz.org/)
 - **Data Manipulation:** [Pandas](https://pandas.pydata.org/)
 - **Deployment:** [Hugging Face Spaces](https://huggingface.co/)
@@ -51,12 +51,12 @@ If you want to run the dashboard on your own machine:
    panel serve src/dashboard.py --show
 
 
-## Dashboard Preview
-   <img width="1366" height="1238" alt="Screenshot_20260711-131431" src="https://github.com/user-attachments/assets/28dd8d66-d766-4aeb-8749-061d52ecd873" />
-   <img width="1366" height="1185" alt="Screenshot_20260711-131446" src="https://github.com/user-attachments/assets/208cc723-2a38-4f2b-81e1-18b792f35a73" />
-   <img width="1366" height="1187" alt="Screenshot_20260711-131456" src="https://github.com/user-attachments/assets/34dd91c7-ada2-4484-a541-2be12328eff8" />
-   <img width="1366" height="1193" alt="Screenshot_20260711-131528" src="https://github.com/user-attachments/assets/54cc474a-8def-4aa0-8152-d83db5790fd5" />
-   <img width="1366" height="1186" alt="Screenshot_20260711-131540" src="https://github.com/user-attachments/assets/c4ea6c61-9e39-4b49-be5f-57bf130d1dd7" />
-   <img width="1366" height="1186" alt="Screenshot_20260711-131548" src="https://github.com/user-attachments/assets/8474636a-3fca-4491-a3e1-791c951aebbc" />
-   <img width="1366" height="917" alt="Screenshot_20260711-131558" src="https://github.com/user-attachments/assets/26490cd4-6ec2-4248-b9d5-339dee35c405" />
-   <img width="1366" height="933" alt="Screenshot_20260711-131606" src="https://github.com/user-attachments/assets/bdeadb1d-31e0-4106-bd2b-96a752ebd4d9" />
+## 🖥️ Dashboard Preview
+   <img width="760" height="1238" alt="Screenshot_20260711-131431" src="https://github.com/user-attachments/assets/28dd8d66-d766-4aeb-8749-061d52ecd873" />
+   <img width="760" height="1185" alt="Screenshot_20260711-131446" src="https://github.com/user-attachments/assets/208cc723-2a38-4f2b-81e1-18b792f35a73" />
+   <img width="760" height="1187" alt="Screenshot_20260711-131456" src="https://github.com/user-attachments/assets/34dd91c7-ada2-4484-a541-2be12328eff8" />
+   <img width="760" height="1193" alt="Screenshot_20260711-131528" src="https://github.com/user-attachments/assets/54cc474a-8def-4aa0-8152-d83db5790fd5" />
+   <img width="760" height="1186" alt="Screenshot_20260711-131540" src="https://github.com/user-attachments/assets/c4ea6c61-9e39-4b49-be5f-57bf130d1dd7" />
+   <img width="760" height="1186" alt="Screenshot_20260711-131548" src="https://github.com/user-attachments/assets/8474636a-3fca-4491-a3e1-791c951aebbc" />
+   <img width="760" height="917" alt="Screenshot_20260711-131558" src="https://github.com/user-attachments/assets/26490cd4-6ec2-4248-b9d5-339dee35c405" />
+   <img width="760" height="933" alt="Screenshot_20260711-131606" src="https://github.com/user-attachments/assets/bdeadb1d-31e0-4106-bd2b-96a752ebd4d9" />
