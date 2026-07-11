@@ -1,4 +1,4 @@
-[![Hugging Face](https://img.shields.io/badge/View-Live_Demo-yellow)](https://huggingface.co/spaces/Moxie882/Build_Pharmacy_Transaction_Dashboard_3)
+[![Hugging Face](https://img.shields.io/badge/View-Live_Demo-yellow)](https://moxie882-build-pharmacy-transaction-dashboard-3.hf.space)
 
 # pharmacy_transaction_dashboard_version_3
 
@@ -8,7 +8,7 @@ A dashboard built with Python and Panel that extracts insights from 'Pharmacy_OL
 
 ## 🔗 Live Demo
 **Check out the live dashboard here:** 
-https://huggingface.co/spaces/Moxie882/Build_Pharmacy_Transaction_Dashboard_3
+https://moxie882-build-pharmacy-transaction-dashboard-3.hf.space
 
 ## 🚀 Overview
 I explored the dataset and built a dashboard used to explore multiple facets of the pharmacy chain.
